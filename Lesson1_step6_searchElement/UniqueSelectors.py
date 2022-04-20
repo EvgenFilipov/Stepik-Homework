@@ -2,10 +2,9 @@ from selenium import webdriver
 import time
 
 try:
-    link = "http://suninjuly.github.io/registration2.html"
+    link = "http://suninjuly.github.io/registration1.html"
     browser = webdriver.Chrome()
     browser.get(link)
-
     # Ваш код, который заполняет обязательные поля
     input1 = browser.find_element_by_xpath("//input[@placeholder='Input your first name']")
     input1.send_keys("Ivan")
