@@ -1,6 +1,6 @@
 import time
 
-from Lesson3_Test_Framework.test_Final_Pytest.conftest import user_language
+from Lesson3_Test_Framework.Test_Final_Pytest.conftest import user_language
 
 link = f"http://selenium1py.pythonanywhere.com/{user_language}/catalogue/coders-at-work_207/"
 
